@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Playball);
+
+
+body {
+    background-color: #F3F3F3
+}
+
+.text-gray, a {
+    color: #747474;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+.text-dark-gray, a:hover {
+    color: #3B3B3B;
+    text-decoration: none
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #990066
+}
+
+.title > h1 {
+    font-size: 27px;
+    color: #990066;
+    margin: 0
+}
+
+.catalog-details .border-dark, .email-sign-up .border-dark, .product .border-dark, .product-details .border-dark {
+    border-color: #990066 !important;
+    background-color: #990066 !important;
+    line-height: 3px
+}
+
+.btn-themacolor-border, .btn-themacolor:hover, .email-sign-up .btn-outline-secondary:hover {
+    color: #3B3B3B;
+    background-color: #fff;
+    border-color: #990066
+}
+
+.btn-themacolor, .btn-themacolor-border:hover, .email-sign-up .btn-outline-secondary {
+    color: #fff;
+    background-color: #990066;
+    border-color: #990066
+}
+
+
+.bg-gray {
+    background-color: #ECECEC
+}
+
+.catalog-details h3, .email-sign-up h3, .product-details h3 {
+    font-size: 20px
+}
+
+.catalog-details h4, .email-sign-up h3, .product h4, .product-details h4 {
+    font-size: 16px
+}
+
